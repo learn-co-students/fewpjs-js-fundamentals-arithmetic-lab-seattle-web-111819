@@ -14,7 +14,9 @@ which returns an integer between 0 and 9. */
 // 3. mod - generates a remainder that is equal to 4:
 const mod = Number.parseInt('100', 2)
 /* parseInt() Accepts a string as its first argument and parses it as an integer. 
-The second argument is the base that should be used in parsing (e.g., 2 for binary or 10 for decimal) */
+The second argument is the base that should be used in parsing (e.g., 2 for binary or 10 for decimal)
+The second argument is optional, but you should always provide it to avoid confusion.
+ */
 
 // 4. max - will return 20 as the highest number in the set
 const max = Math.max(10, 15, 20)
