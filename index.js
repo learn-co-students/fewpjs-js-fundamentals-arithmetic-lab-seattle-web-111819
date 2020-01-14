@@ -12,7 +12,9 @@ We then pass that number to Math.floor(),
 which returns an integer between 0 and 9. */
 
 // 3. mod - generates a remainder that is equal to 4:
-const mod = Number.parseInt('100', 2)
+const mod = 20 % 8
+
+// const mod = Number.parseInt('100', 2)
 /* parseInt() Accepts a string as its first argument and parses it as an integer. 
 The second argument is the base that should be used in parsing (e.g., 2 for binary or 10 for decimal)
 The second argument is optional, but you should always provide it to avoid confusion.
