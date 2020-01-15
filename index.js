@@ -1,12 +1,10 @@
 
 // Write your code here
 
-let num1 = 2
-let num2 = 31
-let multiply = num1 * num2
-
-let random = Math.random() + 1
-
-let mod = 9 % 5
-
-let max = Math.max(2, 5, 13, 20)
+const num1 = 2
+const num2 = 31
+const multiply = num1 * num2
+const random = Math.random() + 1
+// const random = Math.floor(Math.ramdom()*10) + 1
+const mod = 9 % 5
+const max = Math.max(2, 5, 13, 20)
